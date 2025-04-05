@@ -32,7 +32,7 @@ def send_notification(title, message):
     subprocess.run(["osascript", "-e", script])
 
 def switch_git_user():
-
+#add .env file with own logins
     personal_user = os.getenv("PERSONAL_USER")
     personal_email = os.getenv("PERSONAL_EMAIL")
     school_user = os.getenv("SCHOOL_USER")
